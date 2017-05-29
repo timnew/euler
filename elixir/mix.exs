@@ -28,6 +28,8 @@ defmodule Elixir.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:priority_queue, "~> 1.0.0"}
+    ]
   end
 end
